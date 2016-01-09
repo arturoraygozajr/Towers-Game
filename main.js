@@ -36,6 +36,6 @@ function selTopTower() {
 
 function winner() {
 	if ($('#tower3').find('.rings').length === 3 || $('#tower2').find('.rings').length === 3 ) {
-		alert("Yay!!!!");
+		 $('.winner').show();
 	}
 }

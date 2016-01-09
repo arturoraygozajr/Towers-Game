@@ -36,3 +36,12 @@
 	background-color: yellow;
 
 }
+.winner {
+	display: none;
+    position: absolute;
+    top: 61px;
+    left: 487px;
+    z-index: 1;
+    font-size: 5em;
+    color: white;
+}
