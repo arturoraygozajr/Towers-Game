@@ -1,0 +1,38 @@
+.container{
+	text-align: center;
+}
+.tower {
+	width: 320px;
+	height: 450px;
+	background-color: purple;
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+	border: 8px dashed red;
+
+}
+.press {
+   width: 320px;
+   background-color: blue;
+   position: absolute;
+   bottom: 0;
+
+}
+.rings {
+	margin: 0 auto;
+	height: 80px;
+}
+#ring1 {
+	width: 110px;
+	background-color: black;
+}
+#ring2 {
+	width: 180px;
+	background-color: orange;
+
+}
+#ring3 {
+	width: 250px;
+	background-color: yellow;
+
+}
